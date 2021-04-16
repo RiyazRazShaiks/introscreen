@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Energy" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/gradientstart</item>
+        <item name="colorPrimaryVariant">@color/design_default_color_on_primary</item>
+        <item name="colorOnPrimary">@color/gradientend</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/introtitlecolor</item>
+        <item name="colorSecondaryVariant">@color/colorsprimaryDark</item>
+        <item name="colorOnSecondary">@color/design_default_color_error</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
